@@ -12,4 +12,5 @@ if name == "Mr Horan":
   print("You are lucky, he is a great teacher.")
 else:
   print( name + " is an ok teacher")
+  
  
