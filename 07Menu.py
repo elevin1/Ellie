@@ -29,7 +29,6 @@ def whileloop():
             break
         else: 
             print("Not Correct - try again")
-
 def stringloop():
     stringname = input("What is your string? ")
 
@@ -110,7 +109,7 @@ Enter an option """)
         endofoutput()
         input("Press enter to continue")
     
-    elif subject=="8":
+    elif subject=="7":
         startofoutput()
         stringloop()
         endofoutput()
