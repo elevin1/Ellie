@@ -29,6 +29,14 @@ def whileloop():
             break
         else: 
             print("Not Correct - try again")
+
+def stringloop():
+    stringname = input("What is your string? ")
+
+    ran = len(stringname)
+
+    for element in (range(0, ran)):
+        print(stringname[element])
     
 def invalid():
     print("invalid option")
@@ -99,6 +107,12 @@ Enter an option """)
     elif subject=="6":
         startofoutput()
         whileloop()
+        endofoutput()
+        input("Press enter to continue")
+    
+    elif subject=="8":
+        startofoutput()
+        stringloop()
         endofoutput()
         input("Press enter to continue")
     
