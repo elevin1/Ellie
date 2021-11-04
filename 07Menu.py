@@ -106,18 +106,11 @@ Enter an option """)
         startofoutput()
         endofoutput()
         input("Press enter to continue")
-    
-
+        break
     
     else:
         startofoutput()
         invalid()
         endofoutput()
         input("Press enter to continue")
-    
-
-        
-
-
-
 
