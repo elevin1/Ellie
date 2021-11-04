@@ -77,53 +77,53 @@ Enter an option """)
         startofoutput()
         hello()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
         
     elif subject=="2":
         startofoutput()
         goodbye()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
 
     elif subject=="3":
         startofoutput()
         person()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
     
     elif subject=="4":
         startofoutput()
         teacher()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
 
     elif subject=="5":
         startofoutput()
         forloop()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
     
     elif subject=="6":
         startofoutput()
         whileloop()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
     
     elif subject=="7":
         startofoutput()
         stringloop()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
     
     elif subject=="x":
         startofoutput()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
         break
     
     else:
         startofoutput()
         invalid()
         endofoutput()
-        input("Press enter to continue")
+        input("Press Enter to continue")
 
