@@ -17,29 +17,43 @@ def teacher(): #teacher name function
 def forloop():
     for x in range(1, 500):
         print(x)
-def stringLoop ():
-    print
+def whileloop():
+    while True:
+        deez = input("What is the name of this subject ")
+        if deez ==  "IST":
+            print("")
+            print("")
+            print("Congratulations!!")
+            print("")
+            print("")
+            break
+        else: 
+            print("Not Correct - try again")
+    
+def invalid():
+    print("invalid option")
 
 def startofoutput(): 
+    print("")
     print("----Start of Output ---------------------------")
     print("")
 def endofoutput():
     print("")
     print("----End of Output -----------------------------")
+    print("")
+    print("")
+    print("")
 
-i=0
-
-while i==0:
-    print(" ------------------------------------------------")
-    print("|                                                |")
-    print("|    07Menu                                      |")
-    print("|    Name : Ellie Liu                            |")
-    print("|    Version : 01                                |")
-    print("|                                                |")
-    print(" ------------------------------------------------")
-
-#1-9 quesitons
+while True:
     subject = input(""" 
+ ------------------------------------------------
+|                                                |
+|    07Menu                                      |
+|    Name : Ellie Liu                            |
+|    Version : 01                                |
+|                                                |
+ ------------------------------------------------
+
 1. Hello World
 2. Goodbye World
 3. Goodbye Person
@@ -49,42 +63,61 @@ while i==0:
 7. string Loop
 8. Convert to ascii
 9. Encode a string
+x. To Exit
 Enter an option """)
-
-#results for the user input
 
     if subject == "1":
         startofoutput()
         hello()
         endofoutput()
         input("Press enter to continue")
-        continue
-            
-    elif subject == "2":
+        
+    elif subject=="2":
         startofoutput()
         goodbye()
         endofoutput()
         input("Press enter to continue")
 
-    elif subject == "3":
+    elif subject=="3":
         startofoutput()
         person()
         endofoutput()
         input("Press enter to continue")
     
-    elif subject == "4":
+    elif subject=="4":
         startofoutput()
         teacher()
         endofoutput()
         input("Press enter to continue")
 
-    elif subject == "5":
+    elif subject=="5":
         startofoutput()
         forloop()
         endofoutput()
-        print("")
         input("Press enter to continue")
     
+    elif subject=="6":
+        startofoutput()
+        whileloop()
+        endofoutput()
+        input("Press enter to continue")
+    
+    elif subject=="x":
+        startofoutput()
+        endofoutput()
+        input("Press enter to continue")
+    
+
+    
+    else:
+        startofoutput()
+        invalid()
+        endofoutput()
+        input("Press enter to continue")
+    
+
+        
+
 
 
 

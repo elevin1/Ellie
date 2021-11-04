@@ -6,9 +6,7 @@ print("|    Version : 01                                |")
 print("|                                                |")
 print( " ------------------------------------------------")
 
-i = 0
-
-while i == 0:
+while True:
     subject = input("What is the name of this subject ")
     if subject ==  "IST":
         print("")
